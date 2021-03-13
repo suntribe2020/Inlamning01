@@ -1,0 +1,92 @@
+body{
+    background-color: #EBE7DE;
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    margin-left: 2em;   
+    padding-bottom: 25px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    font-weight: lighter;
+    color: #00171F;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: medium;
+}
+
+nav ul {
+    background-color: #705D56;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type:none;
+    display:inline;
+    float:inline-start;
+    border-right: 1px solid #EBE7DE;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color:#2B241C;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+.footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    right:0;
+    width:100%;
+    height:50px;
+    background-color: #705D56;
+    color: white;
+    text-align:left;
+    padding-left:10px;
+    padding-bottom:5px;
+}
+
+div p {
+    font-size:small;
+}
+
+.projects {
+    list-style-type:none;
+    font-family:'Open Sans', sans-serif;
+    font-size:large;
+    margin:0;
+    padding:0;
+}
+
+.about-me {
+    font-size: large;
+    font-family:'Open Sans', sans-serif;
+    text-align: left;    
+} 
+
+div a {
+    text-decoration: none;
+    background-color: #705D56;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
